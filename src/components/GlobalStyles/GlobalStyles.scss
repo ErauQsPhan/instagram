@@ -1,6 +1,17 @@
 @import 'normalize.css';
 @import url('https://fonts.cdnfonts.com/css/helvetica-2');
 
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --border-color: rgb(219, 219, 219);
+    --primary-text: #000;
+    --secondary-text: rgb(115, 115, 115);
+    --primary-button-color: rgb(0, 149, 246);
+    --separator: rgb(219, 219, 219);
+
+    --navbar-width: 244px;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -15,4 +26,18 @@ body {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.4rem;
     line-height: 1.5;
+    font-weight: 400;
+}
+
+button,
+input[submit] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a[href] {
+    text-decoration: none;
+    cursor: pointer;
 }

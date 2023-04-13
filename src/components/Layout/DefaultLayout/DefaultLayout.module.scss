@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: calc(100% - var(--navbar-width));
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}

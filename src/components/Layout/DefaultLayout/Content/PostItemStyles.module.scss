@@ -1,0 +1,146 @@
+.wrapper {
+    width: 470px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--separator);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.header-title {
+    margin-left: 12px;
+    .username {
+        font-weight: 600;
+    }
+    .dot-separate {
+        margin: 0 4px;
+        font-size: 12px;
+    }
+    .time,
+    .dot-separate {
+        color: var(--secondary-text);
+    }
+}
+
+.header-more {
+    padding: 8px;
+}
+
+.image {
+    overflow: hidden;
+    img {
+        width: 100%;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    .actions-left {
+        display: inline-flex;
+        .icon:first-child {
+            margin-left: -8px;
+        }
+    }
+
+    .actions-right {
+        margin-right: -8px;
+    }
+
+    .icon {
+        padding: 5px 8px;
+        cursor: pointer;
+        svg {
+            &:hover {
+                fill: var(--secondary-text);
+                color: var(--secondary-text);
+            }
+        }
+    }
+}
+
+.like {
+    font-weight: 600;
+    margin-bottom: 4px;
+    .numb {
+        margin-right: 4px;
+    }
+}
+.comments {
+    margin-bottom: 4px;
+}
+
+.user-comment {
+    .username {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+}
+
+.comment-wrapper {
+    display: flex;
+    justify-content: space-between;
+    .username {
+        font-weight: 600;
+        margin-right: 4px;
+    }
+}
+.small-heart {
+    cursor: pointer;
+    svg {
+        width: 12px;
+        height: 12px;
+        color: var(--secondary-text);
+        fill: var(--secondary-text);
+        &:hover {
+            color: rgb(219, 219, 219);
+            fill: rgb(219, 219, 219);
+        }
+    }
+}
+
+.add-comment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    input {
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .action-left {
+        display: flex;
+        align-items: center;
+        button {
+            margin-right: 8px;
+            font-weight: 600;
+            color: #0095f6;
+        }
+        svg:hover {
+            cursor: pointer;
+            color: rgb(219, 219, 219);
+            fill: rgb(219, 219, 219);
+        }
+    }
+}
