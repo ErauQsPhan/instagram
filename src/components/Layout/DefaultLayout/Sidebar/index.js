@@ -30,7 +30,7 @@ function Sidebar() {
                     <div className={cx('suggestion-friend')}>
                         <div className={cx('avt')}>
                             <img
-                                src="https://scontent.fsgn13-2.fna.fbcdn.net/v/t1.6435-1/119021151_1388998471269062_6697011022950398502_n.jpg?stp=cp0_dst-jpg_p56x56&_nc_cat=106&ccb=1-7&_nc_sid=7206a8&_nc_ohc=8OjR81DCD5gAX_jYWGc&_nc_ht=scontent.fsgn13-2.fna&oh=00_AfCrkcHWw7w5QA18_h3nixeqEtOdumuekbZFf7c69lKWaA&oe=645EB514"
+                                src="https://images.unsplash.com/photo-1681502014934-b70a5ff05bef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
                                 alt=""
                             />
                         </div>
@@ -44,7 +44,7 @@ function Sidebar() {
                         <div className={cx('avt')}>
                             <img
                                 alt=""
-                                src="https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-1/336651802_1912486225816432_7005146950624671463_n.jpg?stp=cp6_dst-jpg_p480x480&_nc_cat=103&ccb=1-7&_nc_sid=7206a8&_nc_ohc=NnjkCthaiu8AX-annxe&_nc_ht=scontent.fsgn4-1.fna&oh=00_AfDq7TX6Lfc4js3LTymTV38GZZ2215if0nntk0Aa5qLP-Q&oe=643BE75C"
+                                src="https://images.unsplash.com/photo-1681412327205-af22c0849ee5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                             />
                         </div>
                         <div className={cx('content')}>
@@ -56,7 +56,7 @@ function Sidebar() {
                     <div className={cx('suggestion-friend')}>
                         <div className={cx('avt')}>
                             <img
-                                src="https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-1/332392997_5903026476449135_7811572828407521732_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_ohc=TnUBVk0FlnkAX9pspcs&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCXcHs2Mawk4PCkHYuCo8vAxkW6e5inLiAfg_RM80sKyA&oe=643B9714"
+                                src="https://images.unsplash.com/photo-1681404141874-633aa2de7c76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                                 alt=""
                             />
                         </div>
@@ -69,7 +69,7 @@ function Sidebar() {
                     <div className={cx('suggestion-friend')}>
                         <div className={cx('avt')}>
                             <img
-                                src="https://scontent.fsgn8-1.fna.fbcdn.net/v/t39.30808-1/262377805_448239583327706_6107479547284912792_n.jpg?stp=cp0_dst-jpg_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=c6021c&_nc_ohc=njwwhw_cLEoAX_4ldWu&_nc_ht=scontent.fsgn8-1.fna&oh=00_AfAn4Eodl06WSfX4GWDkVCy721pKMcBWRL3rGJ99oMH1EA&oe=643B32E0"
+                                src="https://images.unsplash.com/photo-1681605449196-ebc9c2df94e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                                 alt=""
                             />
                         </div>

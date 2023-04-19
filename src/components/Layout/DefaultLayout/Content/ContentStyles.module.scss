@@ -3,3 +3,11 @@
     margin-right: 64px;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 767.98px) {
+    .content {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 74px;
+    }
+}
